@@ -58,9 +58,6 @@ class Orc(Monster):
         self.damage_blocked = damage_blocked
         self.damage_reflected = damage_reflected
 
-    def attack(self, target):
-        super().attack(target)
-
 class Team(Enum):
     RED = 0
     BLUE = 1
